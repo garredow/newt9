@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon {
+  grid-area: icon;
+  height: 18px;
+  width: 18px;
+}
+
+.textContainer {
+  flex: 1;
+}
+/* .root {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+  grid-template-areas:
+    'icon title'
+    'icon url';
+}
+
+.iconContainer {
+  grid-area: icon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  grid-area: icon;
+  height: 18px;
+  width: 18px;
+}
+
+.title {
+  grid-area: title;
+}
+
+.url {
+  grid-area: url;
+} */

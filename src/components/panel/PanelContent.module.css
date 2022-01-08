@@ -1,0 +1,5 @@
+.root {
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+}

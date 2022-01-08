@@ -1,0 +1,10 @@
+.root {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.root:hover {
+  backdrop-filter: brightness(95%);
+}
+.root:active {
+  backdrop-filter: brightness(90%);
+}

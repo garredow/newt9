@@ -1,0 +1,30 @@
+.folderTitle {
+  padding: 5px 15px;
+}
+
+.bookmarks {
+  display: grid;
+  /* grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); */
+}
+
+.bookmarks > div {
+  overflow: hidden;
+}
+
+.folder {
+  margin-bottom: 10px;
+}
+.folder:last-of-type {
+  margin-bottom: 0px;
+}
+
+.emptyMessage {
+  padding: 15px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+}
+.emptyMessage > button {
+  margin-top: 15px;
+}

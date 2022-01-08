@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 90vw !important;
+  max-width: 400px;
+  max-height: 85vh;
+  padding: 10px 0 !important;
+  margin: 0 !important;
+  border-radius: 5px;
+  background-color: var(--panel-bg-color) !important;
+  color: var(--primary-text-color) !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.root.small {
+  max-width: 300px;
+}
+.root.medium {
+  max-width: 450px;
+}
+.root.large {
+  max-width: 1000px;
+}
+
+[data-reach-dialog-overlay] {
+  background: hsla(0, 0%, 0%, 0.5) !important;
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--divider-color);
+  padding: 0 15px 5px 15px;
+  font-size: var(--title-text-size);
+  font-weight: var(--title-text-weight);
+  color: var(--primary-text-color);
+}
+
+.content {
+  padding: 10px 20px;
+  overflow-y: auto;
+}

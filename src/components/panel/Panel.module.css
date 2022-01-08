@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  color: var(--panel-primary-text-color);
+  background-color: var(--panel-bg-color);
+}
+
+.root {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+}

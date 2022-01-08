@@ -1,0 +1,27 @@
+.root {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  border: 2px solid var(--accent-color);
+}
+.root > input,
+.root > .checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.root .checkmark {
+  color: var(--bg-color);
+}
+
+.root > input:checked ~ .checkbox {
+  opacity: 1;
+}
+.root > input:checked ~ .checkbox {
+  background-color: var(--accent-color);
+}

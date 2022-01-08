@@ -1,0 +1,54 @@
+html {
+  /* Surfaces */
+  --app-bg-color: #eaeaea;
+  --panel-bg-color: #fff;
+
+  --accent-color: #6279b8;
+  --divider-color: rgba(0, 0, 0, 0.1);
+
+  /* Text */
+  --primary-text-color: rgba(0, 0, 0, 0.88);
+  --secondary-text-color: rgba(0, 0, 0, 0.5);
+  --tertiary-text-color: rgba(0, 0, 0, 0.3);
+  --accent-text-color: var(--accent-color);
+  --warning-text-color: #f6f862;
+  --danger-text-color: #f45d52;
+
+  --base-text-weight: 400;
+  --base-text-size: 10px;
+  --caption-text-size: 1.2rem;
+  --caption-text-weight: 400;
+  --secondary-text-size: 1.4rem;
+  --secondary-text-weight: 400;
+  --primary-text-size: 1.6rem;
+  --primary-text-weight: 400;
+  --subtitle-text-size: 1.8rem;
+  --subtitle-text-weight: 600;
+  --title-text-size: 2rem;
+  --title-text-weight: 600;
+  --display-text-size: 2.4rem;
+  --display-text-weight: 600;
+
+  /* Buttons */
+  --primary-button-bg-color: var(--app-accent-color);
+  --primary-button-text-color: var(--primary-text-color);
+  --secondary-button-bg-color: #d0d6dd;
+  --secondary-button-text-color: var(--primary-text-color);
+  --warning-button-bg-color: var(--warning-text-color);
+  --warning-button-text-color: rgba(0, 0, 0, 0.88);
+  --danger-button-bg-color: var(--error-text-color);
+  --danger-button-text-color: var(--primary-text-color);
+
+  /* Actual Styles */
+  font-size: var(--base-text-size);
+  font-weight: var(--base-text-weight);
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: var(--base-text-weight);
+}
+
+* {
+  box-sizing: border-box;
+}

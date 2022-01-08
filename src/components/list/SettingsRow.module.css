@@ -1,0 +1,46 @@
+.root {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid var(--card-divider-color);
+  overflow: hidden;
+}
+.root:last-of-type {
+  margin-bottom: 0px;
+}
+
+.root.compact {
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+.root.spacious {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 38px;
+}
+
+.row > input {
+  text-align: center;
+}
+
+.label {
+  cursor: help;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.helptext {
+  color: var(--card-secondary-text-color);
+  margin-bottom: 10px;
+}
+
+.row > input[type='checkbox'] {
+  height: 18px;
+  width: 18px;
+}

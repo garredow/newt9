@@ -1,0 +1,72 @@
+{
+  "name": "newt9",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:watch": "cra-build-watch",
+    "build:package": "react-scripts build && node deploy.js",
+    "test": "react-scripts test --watchAll=false",
+    "test:watch": "react-scripts test",
+    "test:coverage": "react-scripts test --watchAll=false --coverage",
+    "test:ci": "react-scripts test --watchAll=false --silent",
+    "lint": "eslint src",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@reach/dialog": "^0.15.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "@types/chrome": "0.0.145",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.19.4",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "azure-devops-node-api": "^11.1.0",
+    "date-fns": "^2.28.0",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "octokit": "^1.7.1",
+    "react": "^17.0.1",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-query": "^3.34.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-transition-group": "^4.4.2",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.170",
+    "@types/react-beautiful-dnd": "^13.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-transition-group": "^4.4.2",
+    "archiver": "^5.3.0",
+    "cra-build-watch": "^3.4.0",
+    "eslint-config-prettier": "^6.15.0",
+    "husky": "^6.0.0",
+    "jest-chrome": "^0.7.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "last 2 Chrome versions",
+      "last 2 Firefox versions"
+    ],
+    "development": [
+      "last 2 Chrome versions",
+      "last 2 Firefox versions"
+    ]
+  }
+}
